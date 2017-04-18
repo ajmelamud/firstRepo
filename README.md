@@ -34,12 +34,42 @@
 ### Pathnames
 `pwd` - print working directory
 
-`touch [new file name]` - creates an empty file
+### Create a file
+`touch [filename]` - creates an empty file
 
-`cat [filename]` - shows wahat is in the file
+### View file's content
+`cat [filename]` - shows what is in the file
 
+`head [filename]` - shows first ten lines of file
+
+`tail [filename]` - show last ten lines of file
+
+`less [filename]` - show file one line at a time
+
+`cat >> [filename]` - add more items to file, (Control + D) to stop
+
+
+### Text Output
 `echo` - display text
 
-`echo (text) > [filename]` - displays text in file
+### Output to the File
+`echo (text) > [filename]` - sends text into file
 
+### Remove Files and Directories
 `rm [filename]` - remove file
+
+`rm -rf (directoryname)` - remove directory
+
+### Create Directory
+`mkdir [directoryname]` - creates new directory
+
+### Copying Files and Directories
+`cp [filename] -/(destination)` - Copies file to a new destination
+
+`cp [directoryname] -/(destination)` - Copies directory to a new destination
+
+### Sort Files
+`sort < [filename]` - sorts file in alphabetical order
+
+
+
