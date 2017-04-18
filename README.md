@@ -34,3 +34,12 @@
 ### Pathnames
 `pwd` - print working directory
 
+`touch [new file name]` - creates an empty file
+
+`cat [filename]` - shows wahat is in the file
+
+`echo` - display text
+
+`echo (text) > [filename]` - displays text in file
+
+`rm [filename]` - remove file
