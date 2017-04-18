@@ -1,13 +1,23 @@
-# Unix commands
+# Unix commands to help with projects - AM
 ### Listing files and directories
 `ls` - list content of the current directory
 
 `ls -a` - To list all files in directory including those whose names begin with a dot, type
-#### example
-```
-ls
-ls -a
-```
+
+`ls ~` - lists users home directory
+
+`ls -1` - lists users home directory in column form
+
+`ls -1a` - lists users home directory with hidden files in column form
+
+`ls -t` - sorts home directories by time when used
+
+`ls -S` - Sorts by size 
+
+`ls *` - lists all subdirectories
+
+`ls ~/..` - lists all users
+
 ### Changing to a different Directory
 `cd` - change current working directory to home directory
 
@@ -18,3 +28,9 @@ ls -a
 `cd ~` - Also changes to home directory
 
 `cd /home/user/Desktop` Change directory with absolute path
+
+`cd .` - the current directory
+
+### Pathnames
+`pwd` - print working directory
+
